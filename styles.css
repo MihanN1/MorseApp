@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: aliceblue;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: lighter;
+}
+div.header {
+    font-size: 100px;
+    text-align: center;
+}
+div.wrapper {
+    margin-top: 12.5%;
+}
+div.wrapper * {
+    margin-top: 20px;
+}
+.break {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+input {
+    margin: auto;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    border: 0;
+    background: rgba(0,0,0,0.1);
+    font-family: 'Roboto';
+    font-weight: lighter;
+    color: aliceblue;
+    border-radius: 10px;
+}
+input:active {
+    border: 0;
+    background: rgba(0,0,0,0.25);
+}
+input::placeholder {
+    font-family: 'Roboto';
+    font-weight: lighter;
+    color: aliceblue;
+}
+button {
+    margin-block: 20px;
+    padding: 299px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    border: 0;
+    background: rgba(0,0,0,0.25);
+    font-family: 'Roboto';
+    font-weight: lighter;
+    color: aliceblue;
+    border-radius: 10px;
+}
+button:active {
+    border: 0;
+    background: rgba(0,0,0,0.5);
+}
