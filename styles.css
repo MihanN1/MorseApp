@@ -59,3 +59,12 @@ button:active {
     border: 0;
     background: rgba(0,0,0,0.5);
 }
+div.controls {
+    visibility: hidden;
+}
+div.counter {
+    visibility: hidden;
+}
+div.speaker {
+    visibility: hidden;
+}

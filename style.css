@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: aliceblue;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: lighter;
+}
+div.header {
+    font-size: 100px;
+    text-align: center;
+}
+div.wrapper {
+    visibility: hidden;
+}
+div.controls {
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 100px;
+}
+div.second-wrapper {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+div.second-wrapper * {
+    font-size: 75px;
+    text-align: center;
+    justify-content: center;
+}
