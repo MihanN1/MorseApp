@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <script>
+        let holdtimes = {}
+        let holdtime = {}
+        document.addEventListener('keydown', (e) => {
+          const key = e.key;
+          if (key === 'ArrowLeft' || key === 'ArrowRight') {
+            holdtimes[key] = Date.now();
+          }
+          console.log(holdtimes[key])
+        });
+
+        document.addEventListener('keyup', (e) => {
+          const key = e.key;
+          if (key === 'ArrowLeft' || key === 'ArrowRight') {
+            console.log(Date.now())
+            holdtime[key] = Date.now() - holdtimes[key];
+            holdtimes[key] = 0;
+            console.log(`keypress: ${key}, holdtime: ${holdtime[key]}ms`);
+            holdtime[key] = 0;
+          }
+        });
+    </script>
+  </body>
+</html>

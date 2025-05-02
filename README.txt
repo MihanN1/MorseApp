@@ -1,0 +1,3 @@
+unfinished project, i dont have support or any kind of tutor or teacher, so im gonna drop it cause im too stupid to finish it on my own....
+i wanted to make a website that connects everyone that enters it and lets them communicate with morse code, and it shows the amount of people
+that talk and who talks, and translates only incoming messages into text and that is basically it(((
